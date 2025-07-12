@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "terraform-jenkins-pipeline" {
-    ami           = "ami-04e914639d0cca79a"
+    ami           = "ami-020cba7c55df1f615"
     instance_type = "t2.micro"
     tags = {
         Name = "terraform-jenkins-pipeline"
